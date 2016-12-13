@@ -18,6 +18,10 @@
 ・player
 
 <フィールド変数>
-・　walkcount
-    player が歩いた距離をカウントする
-・
+・walkCount
+    player が歩いた距離をカウントし歩数を保存する
+・plecePlayer
+    playerの現在地を保存する変数
+・playPlayer
+    プレーヤーの操作を行う
+    条件１；壁があったら進ませない
